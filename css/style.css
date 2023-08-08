@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;700&family=Hind:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root{
+	--bg-body: #F8F9FB;
+	--color-azul: #00ACB2;
+	--color-subtitulo: #333;
+	--color-titulo:  #3c3838;
+	--color-azul: #00ACB2;
+	--fondo-azul: #25282F;
+	--fondo-class: #F8F9FB;
+	--color-footer: #333
+}
+body{
+	font-size: 14px;
+	background-color: var(--bg-body);
+	color: #333;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	font-family: 'Hind', sans-serif;
+	color: #FFFFFF;
+}
+
+
+header{
+	background-color: var(--bg-body);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+footer{
+	background-color: var(--bg-body);
+	color: #333;
+	padding: 30px 0;
+	text-align: center;
+}
+
+#herotitle{
+	background-color: var(--fondo-azul)
+}
+
+#herotitle h1{
+	color: #FFFFFF;
+	line-height: inherit;
+	font-size: 50px;
+	padding-top: 5%;
+}
+
+#herotitle p{
+	padding: 5% 0;
+}
+
+.btn{
+	margin-bottom: 2%;
+}
+
+.btn-light{
+	padding: 1% 2%;
+	margin-right: 1%;
+}
+
+.btn-primary{
+	padding: 1% 2%;
+	margin-right: 1%;
+}
+
+#our-classes{
+	padding:8% 2%;
+	text-align: center;
+	margin:auto;
+}
+
+#our-classes img{
+	padding: 0% 20%;
+	width: 70%;
+}
+
+.our-classes h2{
+	color: var(--color-subtitulo);
+	text-align: center;
+	margin:auto;
+	font-size: 50px;
+	padding-top: 5%
+}
+
+#our-classes h4{
+	color: var(--color-azul);
+	text-align: center;
+	margin:auto;
+	font-size: 25px;
+	padding-top: 10%;
+}
+
+
+.cta {
+	background-color: var(--fondo-azul);
+	padding: 10% 0;
+}
+.cta h2{
+	color: #FFFFFF;
+}
+
+.btn-danger{
+	padding: 7%;
+}
+
+#fitness{
+	background-image: url("../img/health-fitness.jpg");
+	background-size: cover;
+	padding: 20% 0;
+}
+
+#fitness h2{
+	color: var(--color-subtitulo);
+	font-size: 40px;
+	padding-bottom: 5%;
+}
+
+#fitness h4{
+	color: var(--color-azul);
+	font-size: 22px;
+	padding-bottom: 5%;
+}
+
+#fitness p{
+	color:#333;
+	padding-bottom: 5%;
+}
+
+.btn-dark {
+	padding: 5%;
+}
+
+
+.trainers{
+	background-color: var(--fondo-azul);
+	padding: 10% 0;
+	
+}
+.trainers h2{
+	color: #FFFFFF;
+	font-size: 40px;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.trainers p{
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-bottom: 5%;
+	
+}
+
+.p-trainers{
+	color: #FFFFFF;
+	font-size: 16px;
+	padding-bottom: 5%;
+	text-align: center;
+	
+}
+
+.trainers img{
+	width: 100%;
+	align-items: center;
+}
+
+.trainers h4{
+	color: #FFFFFF;
+	padding-top: 5%;
+	background-color: var(--color-azul);
+
+}
+
+.subscribe h2{
+	color: var(--color-subtitulo);
+	padding-top: 10%;
+	margin-left: 70%;
+	font-size: 40px;
+}
+
+.subscribe input{
+	margin-top: 10%;
+	border-color: transparent;
+	background-color: transparent;
+	text-align: center;
+	margin-left: 50%;
+}
+
+.subscribe .btn-primary{
+	padding: 2%;
+	background-color: var(--color-azul);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
